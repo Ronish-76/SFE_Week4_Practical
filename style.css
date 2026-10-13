@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    margin: auto;
+    width: 300px;
+}
+
+input, button {
+    margin: 8px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#output {
+    margin-top: 15px;
+    min-height: 24px;
+    font-weight: bold;
+}
